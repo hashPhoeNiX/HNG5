@@ -1,7 +1,8 @@
 import hashlib
+import os
 
-usrid = [112, 221, 451, 321]
-pwd = ["pass123", "my", "four", "dimitri"]
+usrid = [112, 221, 451, 321, 457]
+pwd = ["pass123", "my", "four", "dimitri", 'phoenix']
 def main():
     ques = str(input("Are you a new user? y/n "))
     if ques == 'y':
